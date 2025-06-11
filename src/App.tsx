@@ -25,7 +25,7 @@ const App = () => (
       <TooltipProvider>
         <Toaster />
         <Sonner />
-        <BrowserRouter>
+        <BrowserRouter basename="/template-boucherie5">
           <div className="flex flex-col min-h-screen">
             <Navbar />
             <main className="flex-grow">
